@@ -1,0 +1,26 @@
+{
+  "name": "@reyaxyz/reya-api-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "tsc & node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@reyaxyz/api-sdk": "^0.92.8",
+    "@reyaxyz/sdk": "^0.99.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.12.1"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^20.12.12",
+    "typescript": "^5.4.5"
+  },
+  "packageManager": "pnpm@8.3.1+sha256.ce038ba2617f7a93d0b1f24b733b9d64258b15c97a14c6f37673c8d49e033d9a"
+}
