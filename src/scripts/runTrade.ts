@@ -159,6 +159,7 @@ const run = async () => {
         // };
         // const closeOrderResult: CloseOrderResult = await closeOrder(closeOrderParams);
         // console.log('closeOrderResult', closeOrderResult);
+
     } catch (error) {
         console.error('Error running script:', error);
     }
